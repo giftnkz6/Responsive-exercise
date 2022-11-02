@@ -1,0 +1,44 @@
+/* Universal styling */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkcyan;
+    /* background-image: url("https://cdn1.vectorstock.com/i/1000x1000/24/45/beautiful-shiny-pattern-on-dark-background-vector-8722445.jpg"); */
+}
+/* Image */
+img{
+    width: 500px;
+}
+.container{
+    display: flex;
+
+}
+p{
+    color: white;
+}
+.contact{
+    margin-top: 2em;
+}
+.contact h2{
+    margin-bottom: .5em;
+    text-shadow: 2px 2px blue;
+    font-size: 2em;
+    color: white;
+}
+[input]:hover{
+    color: blue;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .container{
+        flex-direction: column;
+    }
+    
+}
